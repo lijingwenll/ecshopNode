@@ -1,0 +1,178 @@
+*{
+  margin:0;
+  padding:0;
+}
+ul,li,ol,ol{
+  list-style: none;
+}
+.top{
+  width:100%;
+  height:75px;
+  background: #303030;
+}
+/*logo*/
+.top h1{
+  width:150px;
+  height:39px;
+  float:left;
+  background:url(../imgs/listlogo.png)no-repeat center center;
+  padding-top:35px;
+  padding-left:35px;
+}
+/*top todolist*/
+.todolist{
+  width:935px;
+  height:75px;
+  float:right;
+}
+.more,.nav,.test,.refresh,.set,.say,.net,.help,.ecs,.cls,.sign{
+  width:85px;
+  height:59px;
+  float:left;
+  text-align: center;
+  padding-top:16px;
+}
+.more .duo,.nav .kai,.test .matter,.refresh .new,.set .one,.say .ali,.net .look,.help .helping,.ecs .ecshop,.cls .clearimg,.sign .out{
+  color:#fff;
+  font-size:30px!important;
+  line-height: 34px;
+}
+.more .module,.nav .open,.test .book,.refresh .xin,.set .peo,.say .speak,.net .see,.help .hel,.ecs .shop,.cls .clear,.sign .signout{
+  color:#fff;
+  font-size:12px!important;
+}
+.more .module{
+   width:96px;
+  color:yellow;
+}
+.todolist div:hover{
+  background:#574f4f;
+}
+/*nav*/
+.navigation{
+  width:100%;
+  height:40px;
+  border-bottom:1px #000 solid;
+  background: #575757;
+  color:#fff;
+}
+.navleft{
+  float:left;
+  width:775px;
+  height:25px;
+  padding-top: 15px;
+}
+.navleft>li{
+  float:left;
+  margin:0px 0px 0px 20px;
+  border-right:1px #303030 solid;
+  cursor: pointer;
+}
+/*.navleft>li:hover{
+  width:110px;
+  height:25px;
+  background: #413f3f;
+}*/
+.navleft>li>i{
+  float:left;
+  font-size:16px!important;
+  margin-right:10px;
+}
+.navleft>li>p{
+  float:left;
+  font-size:12px;
+  margin-right:10px;
+}
+.navleft>li>span{
+  float:left;
+  width:30px;
+  height:17px;
+  border-radius:5px;
+  background: red;
+  margin-right:3px;
+  text-align: center;
+  line-height: 17px;
+}
+.navright{
+  width:420px;
+  height:40px;
+  float:left;
+}
+.navright .user{
+  width:420px;
+  height:40px;
+  float:left;
+  line-height: 40px;
+}
+.navright .user li{
+  float:left;
+  padding:0 10px;
+  font-size: 12px;
+  color: #fff;
+  cursor: pointer;
+}
+/*side*/
+.case{
+  width:190px;
+  height:575px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: #454545;
+  text-indent: 1em;
+}
+.case .menu{
+  width:190px;
+  height:35px;
+  background:#303030;
+  border-bottom: 1px #000 solid;
+  text-indent: 2.5em;
+  line-height: 35px;
+}
+.case ul{
+  width:224px;
+  height:800px;
+}
+.case ul li{
+  width:190px;
+  min-height:35px;
+  height: 35px;
+  background:#454545;
+  border-bottom: 1px #000 solid;
+  line-height: 35px;
+}
+.case>ul>li>i{
+  float:left;
+  font-size: 16px!important;
+  color:#bababa;
+}
+.case>ul>li>p{
+  float:left;
+  font-size: 12px!important;
+  color:#bababa;
+}
+.case>ul>li>span{
+  float:left;
+  font-size: 18px!important;
+  font-weight:900;
+  padding-left:10px;
+  color:#bababa;
+}
+/*下拉菜单*/
+.click{
+  position: relative;
+}
+.shoplist{
+  width:190px;
+  height:190px;
+  background: #575757;
+  font-size:14px;
+  color:#acc297;
+  display: none;
+}
+.shoplist p{
+   padding-left:28px;
+  line-height: 35px;
+}
+.shoplist p:hover{
+  background: #797979;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/css/login.css' />
+    <script type="text/javascript" src="../js/jquery.js"></script>
+  </head>
+  <body>
+    <div class="box">
+      <h1 class="logo">
+        <img src="../imgs/logo.png" alt="">
+      </h1>
+      <div class="ecshop">
+        <img src="../imgs/ecshop.png" alt="">
+      </div>
+      <div class="icon">
+      <!-- 用户名 -->
+        <div class="user">
+          <img src="../imgs/username.jpg" alt="">
+          <input type="text"  name="username" placeholder="用户名" class="username" />
+        </div>
+        <!-- 密码 -->
+         <div class="pass">
+          <img src="../imgs/psw.jpg" alt="">
+          <input type="password"  name="psw" placeholder="密码" class="psw" />
+        </div>
+        <!-- 验证码 -->
+         <button class="btn" onclick="register()">注册</button>
+      </div>
+      <div class="btm">
+        <img src="../imgs/bar.png" alt="">
+      </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+    function register(){
+      $.ajax({
+        url:"/registerAjax",
+        type:"post",
+        data:{
+          username:$(".username").val(),
+          psw:$(".psw").val()
+        },
+        success:function(res){
+          // console.log(res)
+          if(res.code == 1 ){
+
+            location.href = "/login"
+          }else{
+            alert(res.message)
+          }
+        }
+      })
+    }
+  </script>
+</html>
