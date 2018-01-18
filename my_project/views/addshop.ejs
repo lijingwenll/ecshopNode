@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel='stylesheet' href='/css/addshop.css' />
+</head>
+<body>
+  <div class="top">
+    <div class="topleft">
+      <p class="new">ECSHOP - 添加新商品</p>
+      <img src="../imgs/tip.jpg" alt="">
+    </div>
+    <div class="topright">
+       <img src="../imgs/list.jpg" alt="">
+    </div>    
+  </div>
+  <div class="icon">
+    <ul class="news"> 
+      <li class="first">通用信息</li>
+      <li>详细描述</li>
+      <li>其他信息</li>
+      <li>商品属性</li>
+      <li>商品相册</li>
+      <li>关联商品</li>
+      <li>配件</li>
+      <li>关联文章</li>
+    </ul>
+  </div>
+  <div class="add">
+    <ul>
+      <li class="name">
+        商品名称：<input type="text" name="shopname" class="shopname">
+        <select name="" value="字体样式">
+          <option>字体样式</option>
+          <option>加粗</option>
+          <option>斜线</option>
+          <option>下划线</option>
+        </select>
+      </li>
+      <li class="green">
+        <i>?</i>
+        商品货号：<input type="text" name="shopnumber" class="shopnumb" /><br>
+        <p>如果您不输入商品货号，系统将会自动生成一个唯一的货号</p>
+      </li>
+      <li class="push">
+        商品分类：<input type="text" name="shop"  />
+        <input type="button" value="添加分类" class="btn">
+      </li>
+      <li class="addA">
+        扩展分类：<input type="button" value="添加" class="addbtn">
+      </li>
+      <li class="addB">
+        商品品牌：<select name="" value="字体样式">
+          <option>字体样式</option>
+          <option>加粗</option>
+          <option>斜线</option>
+          <option>下划线</option>
+        </select>
+        <input type="button" value="添加品牌">
+      </li>
+      <li class="addC">
+        本店售价：<input type="text" value="0" class="dian" />
+        <input type="button" value="按市场价计算" />
+      </li>
+      <li class="addD">
+        市场售价：<input type="text" value="0" />
+        <input type="button" value="取整数" />
+      </li>
+       <li class="addE">
+        虚拟销量：<input type="text" value="0" />
+      </li>
+      <li class="addF">
+        <i>?</i>
+        赠送消费积分：<input type="text" value="-1" />
+        <p>购买商品时赠送积分数，-1表示按商品价格赠送</p>
+      </li>
+      <li class="addG">
+        <i>?</i>
+        赠送等级积分：<input type="text" value="-1" />
+        <p>购买商品时赠送积分数，-1表示按商品价格赠送</p>
+      </li>
+     <li class="addH">
+        <i>?</i>
+       积分购买金额：<input type="text" value="0" />
+        <p>(此处需填写金额)购买该商品时最多可以使用积分的金额</p>
+      </li>
+       <li class="addI">
+        <input type="checkbox" name="" />
+        促销价：<input type="text" value="0" />
+      </li>
+      <button class="btnA">确定</button>
+      <button class="btnB">重置</button>
+    </ul>
+  </div>
+</body>
+</html>

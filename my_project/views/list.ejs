@@ -110,9 +110,12 @@
         <span class="iconfont icon-jiahao"></span>
       </li>
       <div class="shoplist">
-          <p class="list" target="content">商品列表</p>
-          <p class="add" target="content">添加商品</p>
-          <iframe id="content" name="content" src=""></iframe>
+        <a href="shoplist" target="content">
+          <p class="list" >商品列表</p>
+        </a>
+        <a href="addshop" target="content">
+          <p class="add" >添加商品</p>
+        </a> 
       </div>
       <li>
         <i class="iconfont icon-79"></i>
@@ -230,6 +233,10 @@
       </li>
     </ul>
   </div>
+  <div class="scroll">
+    <iframe id="content" name="content" src=""></iframe>
+  </div>
+  
 </body>
 <script type="text/javascript">
   $(".block").click(function(){

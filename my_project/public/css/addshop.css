@@ -1,0 +1,143 @@
+*{margin:0;padding:0;}
+ul,li{list-style: none;}
+.top{
+  width:100%;
+  height:50px;
+  background:#d0cdcd;
+  border-bottom: 1px #a19e9e solid;
+}
+.topleft{
+  width:435px;
+  height:50px;
+  line-height: 50px;
+  font-size:18px;
+  color:#333;
+  float:left;
+}
+.topleft .new{
+  float: left;
+}
+.topleft img{
+  float: left;
+  padding-top:15px;
+  padding-left:20px;
+}
+.topright{
+  width:100px;
+  height:50px;
+  float:right;
+}
+.topright img{
+  padding-top:15px;
+  padding-right:25px;
+}
+/*icon*/
+.icon{
+  widows: 100%;
+  height:40px;
+  background:#d0cdcd;
+  margin-top:9px;
+  border-top:1px #a19e9e solid;
+}
+.icon>.news{
+  widows: 100%;
+  height:40px;
+  float: left;
+  padding-left:20px;
+}
+.icon>.news>li{
+  width:80px;
+  float:left;
+  font-size: 12px;
+  color:#787878;
+  line-height: 40px;
+  text-align: center;
+}
+.icon>.news>.first{
+  background: #fff;
+}
+/*center*/
+.add{
+  /*width:100%;*/
+  height:782px;
+  background:#fff;
+  overflow-x:hidden;
+}
+.add>ul{
+  width:80%;
+  margin:0 auto;
+  /*background: #f0d;*/
+  margin-top:20px;
+}
+.add>ul>li{
+  height:25px;
+  font-size:14px;
+  line-height:25px;
+  padding-left:175px;
+}
+.add>ul>.name{
+  padding-left:200px;
+}
+.add>ul>.name>input{
+  margin-left: 30px;
+}
+.green>i,.addF>i,.addG>i,.addH>i{
+  display: inline-block;
+  width:20px;
+  height:20px;
+  background:green;
+  border-radius: 10px;
+  text-align: center;
+  line-height:20px;
+  color:#fff;
+}
+.green>input{
+  margin-left: 30px;
+}
+.green>p,.addF>p,.addG>p,.addH>p{
+  font-size:12px;
+  color:#666;
+  padding-left:120px;
+}
+.push{
+  padding-top:20px;
+  margin-left:20px;
+}
+.push>input,.addA>input,.addB>select,.addB>input,.addC>input,.addD>input,.addE>input,.addF>input,.addG>input,.addH>input,.addI>input{
+  margin-left: 32px;
+}
+.push>.btn,.addB>input{
+  background: #ddeef2;
+}
+.addA{
+  padding-top: 10px;
+  margin-left:20px;
+}
+.addA>.addbtn{
+  width:30px;
+  height:25px;
+  font-size:12px;
+  background: #ff3f3f;
+  border: 0;
+}
+.addB,.addC,.addD,.addE{
+  padding-top: 10px;
+  margin-left: 20px;
+}
+.addF{
+  padding-top: 10px;
+}
+.addG,.addH,.addI{
+  padding-top: 20px;
+}
+.btnA,.btnB{
+  width:60px;
+  height: 40px;
+  background: red;
+  text-align: center;
+  line-height: 40px;
+  margin-top: 15px;
+}
+.btnA{
+  margin-left: 410px;
+}

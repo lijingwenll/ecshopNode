@@ -1,10 +1,6 @@
-*{
-  margin:0;
-  padding:0;
-}
-ul,li,ol,ol{
-  list-style: none;
-}
+*{  margin:0;padding:0;}
+ul,li,ol,ol{list-style: none;}
+a,u{text-decoration: none; }
 .top{
   width:100%;
   height:75px;
@@ -113,6 +109,7 @@ ul,li,ol,ol{
 }
 /*side*/
 .case{
+  float:left;
   width:190px;
   height:575px;
   overflow-y: scroll;
@@ -169,10 +166,30 @@ ul,li,ol,ol{
   color:#acc297;
   display: none;
 }
-.shoplist p{
-   padding-left:28px;
+.shoplist a{
+  display: block;
+  width:190px;
+  color:#acc297;
+}
+.shoplist a p{
+  float:left;
+  width:190px;
+  padding-left:28px;
   line-height: 35px;
 }
 .shoplist p:hover{
   background: #797979;
+}
+/*click*/
+.scroll{
+  width:84.6%;
+  height:571px;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+#content{
+  width:100%;
+  height:900px;
+  float:left;
+  background:#efefef;
 }

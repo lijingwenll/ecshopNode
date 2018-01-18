@@ -5,6 +5,15 @@ var MyUserObj = require('../model/login');
 var md5 = require("md5");
 
 /* GET home page. */
+
+router.get('/shoplist', function(req, res, next){
+  res.render("shoplist")
+});
+
+router.get('/addshop',function(req, res, next){
+  res.render("addshop")
+})
+
 router.get('/register', function(req, res, next) {
   res.render('register');
 });
